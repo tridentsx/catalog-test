@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: apicurio-demo
+  description: An example of a Backstage application.
+
+  links:
+    - title: Website
+      url: https://www.apicur.io/
+    - title: Documentation
+      url: https://www.apicur.io/studio/docs
+
+  annotations:
+    #github.com/project-slug: backstage/backstage
+    #backstage.io/techdocs-ref: dir:.
+    #lighthouse.com/website-url: https://backstage.io
+    jira-dashboard/project-key: SWPSSEC # value: The key of the Jira project to track for this entity
+    #jira-dashboard/component: component-name:component-name:component:name # Jira component name separated with :
+    #jira-dashboard/filter-ids: 12345:67890 # Jira filter id separated with :
+
+spec:
+  type: website
+  owner: carl.f.sundstrom@gmail.com
+  lifecycle: experimental
