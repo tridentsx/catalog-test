@@ -16,7 +16,7 @@ metadata:
     #lighthouse.com/website-url: https://backstage.io
     #jira-dashboard/project-key: SWPSSEC # value: The key of the Jira project to track for this entity
     jira-dashboard/component: Cactus #:component:name # Jira component name separated with :
-    jira-dashboard/filter-ids: -1 # Jira filter id separated with :
+    jira-dashboard/filter-ids: "-1" # Jira filter id separated with :
 
 spec:
   type: website
